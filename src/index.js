@@ -57,6 +57,8 @@ const characterData = {
 
 const characterBar = document.getElementById("character-bar");
 const detailedInfo = document.getElementById("detailed-info");
+const votesForm = document.getElementById("votes-form");
+const voteCountInput = document.getElementById("vote-count");
 
 //console.log(characterBar)
 
@@ -86,7 +88,7 @@ characterData.characters.forEach((character) => {
 });
 
 
-const votesForm = document.getElementById("votes-form");
-const voteCountInput = document.getElementById("vote-count");
+//const votesForm = document.getElementById("votes-form");
+//const voteCountInput = document.getElementById("vote-count");
 
 
