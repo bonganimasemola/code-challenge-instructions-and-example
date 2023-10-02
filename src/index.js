@@ -1,3 +1,11 @@
+//function fetchData(){
+//  fetch('http://localhost:3000/characters')
+//  .then(res=>res.json())
+//  .then(data=> functionData(data)) }
+//
+//
+//
+
 const characterData = {
     "characters": [
       {
@@ -59,6 +67,7 @@ const characterBar = document.getElementById("character-bar");
 const detailedInfo = document.getElementById("detailed-info");
 const votesForm = document.getElementById("votes-form");
 const voteCountInput = document.getElementById("vote-count");
+const resetButton = document.getElementById('reset-btn');
 
 //console.log(characterBar)
 
